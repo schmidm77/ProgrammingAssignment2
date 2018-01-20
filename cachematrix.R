@@ -1,5 +1,11 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The following functions provide a way to calculate the inverse of a 2x2 matrix
+## and storing the output so that it can be retrieved again without recalculating
+##
+## usage:
+## > test <- matrix(1:4, 2, 2)
+## > cached-test <- makeCacheMatrix(test)
+## > cacheSolve(cached-test)
+## > cacheSolve(cached-test)
 
 ## Creates an object for caching the output of inverse of a 2x2 matrix
 
